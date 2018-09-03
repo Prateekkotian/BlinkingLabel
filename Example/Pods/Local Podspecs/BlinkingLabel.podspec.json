@@ -1,8 +1,8 @@
 {
   "name": "BlinkingLabel",
   "version": "0.1.0",
-  "summary": "A short description of BlinkingLabel.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A subclass on UILabel that provides a blink",
+  "description": "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.",
   "homepage": "https://github.com/ganeshsourcebits/BlinkingLabel",
   "license": {
     "type": "MIT",
@@ -15,6 +15,7 @@
     "git": "https://github.com/ganeshsourcebits/BlinkingLabel.git",
     "tag": "0.1.0"
   },
+  "swift_version": "4.0",
   "platforms": {
     "ios": "8.0"
   },
