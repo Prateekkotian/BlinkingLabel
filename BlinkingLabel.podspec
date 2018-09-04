@@ -41,7 +41,7 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency "TwitterKit"
-  s.dependency "FacebookCore"
-  s.dependency "FacebookLogin"
-  s.dependency "GoogleSignIn"
+  s.dependency 'FBSDKCoreKit', '4.29.0'
+  s.dependency 'FBSDKLoginKit', '4.29.0'
+  s.dependency 'Google/SignIn'
 end
