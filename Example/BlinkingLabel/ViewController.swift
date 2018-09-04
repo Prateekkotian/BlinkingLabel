@@ -30,6 +30,13 @@ class ViewController: UIViewController {
         toggleButton.setTitleColor(UIColor.red, for: .normal)
         toggleButton.addTarget(self, action: #selector(toggleBlinking), for: .touchUpInside)
         view.addSubview(toggleButton)
+        
+        let launchSDKButton = UIButton(frame: CGRect(x: 150, y: 300, width: 200, height: 30))
+        launchSDKButton.setTitle("launchSDKButton", for: .normal)
+        launchSDKButton.setTitleColor(UIColor.red, for: .normal)
+        launchSDKButton.addTarget(self, action: #selector(launchSDK), for: .touchUpInside)
+        view.addSubview(launchSDKButton)
+        
     }
 
     @objc func toggleBlinking() {
@@ -41,6 +48,11 @@ class ViewController: UIViewController {
         isBlinking = !isBlinking
     }
 
+    @objc func launchSDK() {
+        let cc = MainViewController()
+        self.present(cc, animated: true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
