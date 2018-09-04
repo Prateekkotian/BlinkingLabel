@@ -46,6 +46,8 @@ class ViewController: UIViewController {
             blinkingLabel.startBlinking()
         }
         isBlinking = !isBlinking
+        
+        // Proposed file changes
     }
 
     @objc func launchSDK() {
